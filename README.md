@@ -1,6 +1,6 @@
-## 📍 프로젝트명: MYSCHOLRS
+## 📍 프로젝트명: SCHOLLI
 
-<img src="https://github.com/judymoody59/Musccat_Example/assets/108432112/88a11d1d-c27c-4bef-920d-fdb0b213f21d" width="300" height="100" />
+<img src="https://github.com/judymoody59/Musccat_Example/assets/108432112/b8bf2704-748e-4b22-9140-5c4692dd2db9" width="250" height="250" />
 <br>
 <br>
 
@@ -45,9 +45,9 @@
 
 ## 🗃️ 개발 레포지토리
 
-### 백엔드
+#### 백엔드
   - [Musccat_Project_BE](https://github.com/Musccat/Musccat_Project_BE)
-### 프론트엔드
+#### 프론트엔드
   - [Musccat_Project_FE](https://github.com/Musccat/Musccat_Project_FE)
 
 <br>
@@ -55,19 +55,69 @@
 
 ## 🛠️ 기술 스택
 
-### AI 
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white"> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white"> <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white">
+#### AI 
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white"> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white"> 
 
-### 백엔드
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"> <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=Django&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"> <img src="https://img.shields.io/badge/Amazon RDS-527FFF?style=for-the-badge&logo=Amazon RDS&logoColor=white"> 
+#### 백엔드
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"> <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=Django&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"> <img src="https://img.shields.io/badge/Amazon RDS-527FFF?style=for-the-badge&logo=Amazon RDS&logoColor=white"> <img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=for-the-badge&logo=Amazon EC2&logoColor=white"> <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white">
 
-### 프론트엔드
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black"> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white"> 
+#### 프론트엔드
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black"> <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black"> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white"> 
 
-### 협업
+#### 협업
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white">
 
 <br>
 
 ## ⚙️ 개발환경 설정
 
+#### 백엔드 실행 터미널
+
+프로젝트에 필요한 패키지들이 다른 프로젝트와 격리되도록 가상 환경을 설정한다.  
+```
+python -m venv "이름" #가상 환경 시작
+```
+<br>
+
+가상환경을 생성했다면 활성화하여 해당 환경 내에서 작업할 수 있도록 이동한다.
+
+```
+source "이름"/Scripts/activate #가상 환경으로 이동
+```
+
+<br>
+
+가상 환경이 활성화된 상태에서 Django 프로젝트를 생성한다.
+
+```
+django-admin startproject "프로젝트 이름" #프로젝트 시작
+```
+
+<br>
+
+Django 프로젝트 내에서 실제로 기능을 구현하는 단위인 앱을 생성한다.
+
+```
+python manage.py startapp "앱 이름" #앱 시작
+```
+
+<br>
+
+모든 설정이 완료되면 Django 개발 서버를 실행한다.
+
+```
+python manage.py runserver #서버 시작 
+```
+
+#### 프론트엔드 실행 터미널
+
+create-react-app(CRA)를 이용하기 위해선 Node.js 와 npm 설치가 되어있어야 한다.
+
+- npm(node package manager) v6. 14.0 이상
+- Node.js (JavaScript runtime) 14.0.0 이상
+
+설치가 모두 완료되었다면 npx 명령어를 통해 CRA를 실행할 수 있다.
+```
+npx create-react-app <프로젝트 이름> // React 웹 애플리케이션 프로그램 생성
+npm start // 애플리케이션 실행
+```
